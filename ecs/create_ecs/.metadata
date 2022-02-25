@@ -1,0 +1,40 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "zone_id"
+        ],
+        "Label": {
+          "default": {
+            "en": "Basic Configuration Settings",
+            "zh-cn": "基础设置"
+          }
+        }
+      },
+      {
+        "Parameters": [
+          "vpc_cidr_block",
+          "vswitch_cidr_block"
+        ],
+        "Label": {
+          "default": {
+            "en": "Network Configuration Settings",
+            "zh-cn": "网络设置"
+          }
+        }
+      },
+      {
+        "Parameters": [
+          "ecs_instance_type"
+        ],
+        "Label": {
+          "default": {
+            "en": "ECS Configuration Settings",
+            "zh-cn": "ECS设置"
+          }
+        }
+      }
+    ]
+  }
+}
