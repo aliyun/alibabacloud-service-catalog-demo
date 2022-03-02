@@ -4,11 +4,18 @@
 
 您可以通过当前库获取到服务目录的示例模版，使用方式可[查看参考文档](https://help.aliyun.com/document_detail/403733.html)
 
+|  类型   | 名称  | 说明  |
+|  ----  | ----  |----  |
+| demo  | [ram_role_create](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/ram_role_create) | 创建一个RAM用户（免费） |
+| ecs  | [create_ecs](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/ecs/create_ecs) | 创建限制规格的ECS |
 
-![image](https://user-images.githubusercontent.com/100276871/156296303-586bd303-2f64-4028-8a9a-e4650e2a4644.png)
+
 
 
 ## 功能特性
+
+
+![image](https://user-images.githubusercontent.com/100276871/156296303-586bd303-2f64-4028-8a9a-e4650e2a4644.png)
 
 - 管理员进行产品管理和产品组合管理
   - 管理员可以基于Terraform定义合规产品，并管理产品的多个版本。
