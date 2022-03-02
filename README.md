@@ -1,6 +1,9 @@
 # alibabacloud-service-catalog-demo
 
-服务目录（Service Catalog）基于阿里云基础设施即代码IaC（Infrastructure as Code）能力，帮助企业设定符合组织要求的产品并定义约束条件，构建可自助的服务列表，从而降低企业业务上云时选用产品的难度，提高IT服务交付效率。
+服务目录（Service Catalog）基于阿里云基础设施即代码IaC（Infrastructure as Code）能力，帮助企业设定符合组织要求的产品并定义约束条件，构建可自助的服务列表，从而降低企业业务上云时选用产品的难度，提高IT服务交付效率。[查看服务目录的控制台](https://servicecatalog.console.aliyun.com/welcome)
+
+您可以通过当前库获取到服务目录的示例模版，使用方式可[查看参考文档](https://help.aliyun.com/document_detail/403733.html)
+
 
 ![image](https://user-images.githubusercontent.com/100276871/156296303-586bd303-2f64-4028-8a9a-e4650e2a4644.png)
 
