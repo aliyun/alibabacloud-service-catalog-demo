@@ -1,4 +1,4 @@
-# 阿里云服务目录示例 Terraform
+# 阿里云服务目录示例 （Terraform）
 
 服务目录（Service Catalog）基于阿里云基础设施即代码IaC（Infrastructure as Code）能力，帮助企业设定符合组织要求的产品并定义约束条件，构建可自助的服务列表，从而降低企业业务上云时选用产品的难度，提高IT服务交付效率。[查看服务目录的控制台](https://servicecatalog.console.aliyun.com/welcome)
 
