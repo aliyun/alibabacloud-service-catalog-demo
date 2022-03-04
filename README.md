@@ -6,7 +6,7 @@
 
 |  类型   | 名称  | 说明  |
 |  ----  | ----  |----  |
-| demo  | [ram_role_create](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/ram_role_create) | 创建一个RAM用户（免费） |
+| demo  | [ram_role_create](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/ram/create_ram_role) | 创建一个RAM用户（免费） |
 | ecs  | [create_ecs](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/ecs/create_ecs) | 创建限制规格的ECS |
 
 
