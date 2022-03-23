@@ -1,0 +1,30 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "domain_name",
+          "scope",
+          "cdn_type",
+          "sources_content",
+          "sources_type",
+          "sources_priority",
+          "sources_port",
+          "sources_weight",
+          "function_name",
+          "arg_name",
+          "arg_value"
+        ],
+        "Label": {
+          "default": {
+            "en": "cdn resource config (required)",
+            "zh-cn": "cdn 资源配置（必填）"
+          }
+        }
+      }
+    ],
+    "TemplateTags": [
+      "cdn"
+    ]
+  }
+}

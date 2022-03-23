@@ -1,0 +1,33 @@
+resource "alicloud_security_group" "group" {
+  name   = var.group_name
+  vpc_id = var.vpc_id
+}
+
+resource "alicloud_security_group_rule" "tcp_port" {
+  count             = length(var.group_tcp_port)
+  type              = var.group_type
+  ip_protocol       = var.group_ip_protocol
+  nic_type          = var.group_nic_type
+  policy            = var.group_policy
+  port_range        = var.group_tcp_port[count.index]
+  priority          = var.group_priority
+  security_group_id = alicloud_security_group.group.id
+  cidr_ip           = var.group_cidr_ip[count.index]
+}
+
+resource "alicloud_instance" "default" {
+  availability_zone = var.ecs_ZoneId
+  security_groups   = [alicloud_security_group.group.id]
+  #  count                     = length(local.ecs.instances)
+  instance_name              = var.ecs_name
+  host_name                  = var.host_name
+  private_ip                 = var.private_ip
+  instance_type              = var.instance_type
+  system_disk_category       = var.SystemDisk
+  system_disk_name           = var.system_disk_name
+  system_disk_description    = var.description
+  image_id                   = var.ImageId
+  vswitch_id                 = var.VSwitchId
+  internet_max_bandwidth_out = var.internet_max_bandwidth_out
+  password                   = var.password
+}

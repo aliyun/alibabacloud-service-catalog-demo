@@ -1,0 +1,58 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "vpc_id",
+          "redis_ZoneId",
+          "VSwitchId"
+        ],
+        "Label": {
+          "default": {
+            "en": "Network config (required)",
+            "zh-cn": "网络配置（必填）"
+          }
+        }
+      },
+      {
+        "Parameters": [
+          "payment_type",
+          "instance_class",
+          "instance_type",
+          "engine_version",
+          "private_ip",
+          "security_ips",
+          "db_instance_name",
+          "account_password"
+        ],
+        "Label": {
+          "default": {
+            "en": "Redis config",
+            "zh-cn": "Redis配置"
+          }
+        }
+      }, 
+      {
+        "Parameters": [
+          "group_name",
+          "group_tcp_port",
+          "group_cidr_ip",
+          "group_type",
+          "group_ip_protocol",
+          "group_nic_type",
+          "group_policy",
+          "group_priority"
+        ],
+        "Label": {
+          "default": {
+            "zh-cn": "安全组资源配置（必填）",
+            "en": "Security group resource configuration (required)"
+          }
+        }
+      }
+    ],
+    "TemplateTags": [
+      "redis"
+    ]
+  }
+}

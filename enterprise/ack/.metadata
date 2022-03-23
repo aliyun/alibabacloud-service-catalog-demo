@@ -1,0 +1,85 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "vpc_id",
+          "zone_id",
+          "VSwitchId"
+        ],
+        "Label": {
+          "default": {
+            "en": "Network resource config (required)",
+            "zh-cn": "网络资源配置（必填）"
+          }
+        }
+      },
+      {
+        "Parameters": [
+          "group_name",
+          "group_tcp_port",
+          "group_cidr_ip",
+          "group_type",
+          "group_ip_protocol",
+          "group_nic_type",
+          "group_policy",
+          "group_priority"
+        ],
+        "Label": {
+          "default": {
+            "zh-cn": "安全组资源配置（必填）",
+            "en": "Security group resource configuration (required)"
+          }
+        }
+      },
+      {
+        "Parameters": [
+          "load_balancer_spec",
+          "instance_type",
+          "node_cidr_mask",
+          "cluster_spec",
+          "pod_cidr",
+          "service_cidr",
+          "worker_instance_charge_type",
+          "worker_number",
+          "password"
+        ],
+        "Label": {
+          "default": {
+            "en": "ACK configuration (required)",
+            "zh-cn": "ACK配置（必填）"
+          }
+        }
+      },{
+        "Parameters": [
+          "kubernetes_name",
+          "cluster_domain",
+          "deletion_protection",
+          "enable_ssh",
+          "is_enterprise_security_group",
+          "install_cloud_monitor",
+          "new_nat_gateway",
+          "slb_internet_enabled",
+          "node_port_range",
+          "os_type",
+          "platform",
+          "proxy_mode",
+          "worker_disk_category",
+          "worker_disk_size",
+          "runtime_name",
+          "runtime_version",
+          "cpu_policy"
+        ],
+        "Label": {
+          "default": {
+            "en": "ACK configuration (required)",
+            "zh-cn": "ACK配置（Optional）"
+          }
+        }
+      }
+    ],
+    "TemplateTags": [
+      "ack"
+    ]
+  }
+}

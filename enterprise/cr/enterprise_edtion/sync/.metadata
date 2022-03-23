@@ -1,0 +1,26 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "instance_id",
+          "namespace_name",
+          "name",
+          "target_region_id",
+          "target_instance_id",
+          "target_namespace_name",
+          "tag_filter"
+        ],
+        "Label": {
+          "default": {
+            "en": "cr sync config",
+            "zh-cn": "CR 同步配置"
+          }
+        }
+      }
+    ],
+    "TemplateTags": [
+      "cr"
+    ]
+  }
+}

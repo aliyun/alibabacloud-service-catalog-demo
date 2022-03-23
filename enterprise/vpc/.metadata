@@ -1,0 +1,30 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "vpc_cidr_block"
+        ],
+        "Label": {
+          "default": {
+            "en": "Basic resource allocation (required)",
+            "zh-cn": "基础资源配置（必填）"
+          }
+        }
+      },{
+        "Parameters": [
+          "vpc_name"
+        ],
+        "Label": {
+          "default": {
+            "en": "Basic resource allocation (Optional)",
+            "zh-cn": "基础资源配置（选填）"
+          }
+        }
+      }       
+    ],
+    "TemplateTags": [
+      "vpc"
+    ]
+  }
+}

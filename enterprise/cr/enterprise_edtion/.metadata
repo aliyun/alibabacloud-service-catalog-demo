@@ -1,0 +1,37 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "payment_type",
+          "period",
+          "renewal_status",
+          "instance_type",
+          "instance_name"
+        ],
+        "Label": {
+          "default": {
+            "en": "cr resource config (required)",
+            "zh-cn": "CR 资源配置（必填）"
+          }
+        }
+      },
+      {
+        "Parameters": [
+          "namespace_name",
+          "auto_create",
+          "default_visibility"
+        ],
+        "Label": {
+          "default": {
+            "en": "namespace",
+            "zh-cn": "命名空间"
+          }
+        }
+      }
+    ],
+    "TemplateTags": [
+      "cr"
+    ]
+  }
+}

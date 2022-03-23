@@ -1,0 +1,37 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "vpc_id",
+          "vsw01_ZoneId",
+          "VSwitch01_Id",
+          "vsw02_ZoneId",
+          "VSwitch02_Id"
+        ],
+        "Label": {
+          "default": {
+            "en": "Network resource config (required)",
+            "zh-cn": "网络资源配置（必填）"
+          }
+        }
+      },{
+        "Parameters": [
+          "address_allocated_mode",
+          "address_type",
+          "pay_type",
+          "load_balancer_edition"
+        ],
+        "Label": {
+          "default": {
+            "en": "alb resource config (required)",
+            "zh-cn": "alb 资源配置（必填）"
+          }
+        }
+      }
+    ],
+    "TemplateTags": [
+      "alb"
+    ]
+  }
+}

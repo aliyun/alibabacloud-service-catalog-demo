@@ -1,0 +1,21 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "bandwidth",
+          "payment_type"
+        ],
+        "Label": {
+          "default": {
+            "en": "eip resource config (required)",
+            "zh-cn": "eip 资源配置（必填）"
+          }
+        }
+      }
+    ],
+    "TemplateTags": [
+      "eip"
+    ]
+  }
+}

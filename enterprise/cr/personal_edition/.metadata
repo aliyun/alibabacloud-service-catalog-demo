@@ -1,0 +1,26 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "namespace",
+          "auto_create",
+          "default_visibility",
+          "repo_type",
+          "summary",
+          "repo_name",
+          "detail"
+        ],
+        "Label": {
+          "default": {
+            "en": "cr resource config (required)",
+            "zh-cn": "cr资源配置（必填）"
+          }
+        }
+      }
+    ],
+    "TemplateTags": [
+      "crrepo"
+    ]
+  }
+}

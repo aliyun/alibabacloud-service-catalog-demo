@@ -1,0 +1,56 @@
+{
+  "ALIYUN::ROS::Interface": {
+    "ParameterGroups": [
+      {
+        "Parameters": [
+          "vpc_id",
+          "rds_ZoneId",
+          "VSwitchId"
+        ],
+        "Label": {
+          "default": {
+            "en": "Network resource config (required)",
+            "zh-cn": "网络资源配置（必填）"
+          }
+        }
+      },
+      {
+        "Parameters": [
+          "db_storage",
+          "engine_id",
+          "EngineVersion",
+          "db_instance_storage_type",
+          "db_instance_charge_type",
+          "db_instance_type"
+        ],
+        "Label": {
+          "default": {
+            "en": "RDS resource config",
+            "zh-cn": "RDS配置"
+          }
+        }
+      },
+      {
+        "Parameters": [
+          "group_name",
+          "group_tcp_port",
+          "group_cidr_ip",
+          "group_type",
+          "group_ip_protocol",
+          "group_nic_type",
+          "group_policy",
+          "group_priority"
+        ],
+        "Label": {
+          "default": {
+            "zh-cn": "安全组资源配置（必填）",
+            "en": "Security group resource configuration (required)"
+          }
+        }
+      }
+    ],
+    "TemplateTags": [
+      "rds"
+    ]
+  }
+}
