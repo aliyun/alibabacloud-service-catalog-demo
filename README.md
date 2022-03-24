@@ -2,6 +2,7 @@
 
 服务目录（Service Catalog）基于阿里云基础设施即代码IaC（Infrastructure as Code）能力，帮助企业设定符合组织要求的产品并定义约束条件，构建可自助的服务列表，从而降低企业业务上云时选用产品的难度，提高IT服务交付效率。[查看服务目录的控制台](https://servicecatalog.console.aliyun.com/welcome)
 
+# 示例TF代码
 您可以通过当前库获取到服务目录的示例模版如下，使用方式可[查看参考文档](https://help.aliyun.com/document_detail/403733.html)
 
 |  类型   | 名称  | 说明  |
