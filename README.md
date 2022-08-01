@@ -15,20 +15,20 @@
 
 ### 进阶示例
 
-| 名称  | 说明  |
+| 名称  | 云产品  | 描述  |
 | ----  |----  |
-| [ack](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/ack) | ACK集群 |
-| [alb](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/alb) | 负载均衡 |
-| [cdn](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/cdn) | 内容分发网络 |
-| [cr](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/cr) | 容器镜像 |
-| [eci](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/eci) | 弹性容器实例 |
-| [ecs](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/ecs) | 云服务器  |
-| [eip](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/eip) | 弹性公网IP |
-| [group](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/group) | 安全组 |
-| [rds](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/rds) | 云数据库 rds |
-| [redis](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/redis) | 云数据库 redis |
-| [vpc](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/vpc) | 专有网络 |
-| [vsw](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/vsw) | vswitch |
+| [ack](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/ack) | ACK集群 | 创建一个包含常用参数的ACK集群 |
+| [alb](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/alb) | 负载均衡 |创建一个包含常用参数的负载均衡 |
+| [cdn](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/cdn) | 内容分发网络 | 创建一个包含常用参数的内容分发网络 |
+| [cr](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/cr) | 容器镜像 |创建一个包含常用参数的容器镜像 |
+| [eci](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/eci) | 弹性容器实例 |创建一个包含常用参数的弹性容器实例 |
+| [ecs](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/ecs) | 云服务器  |创建一个包含常用参数的云服务器  |
+| [eip](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/eip) | 弹性公网IP |创建一个包含常用参数的弹性公网IP |
+| [group](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/group) | 安全组 |创建一个包含常用参数的安全组 |
+| [rds](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/rds) | 云数据库 rds |创建一个包含常用参数的云数据库 rds |
+| [redis](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/redis) | 云数据库 redis |创建一个包含常用参数的云数据库 redis |
+| [vpc](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/vpc) | 专有网络 | 创建一个包含常用参数的专有网络 |
+| [vsw](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/vsw) | vswitch |创建一个包含常用参数的vswitch |
 
 
 
