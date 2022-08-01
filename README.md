@@ -17,18 +17,18 @@
 
 | 名称  | 云产品  | 描述  |
 | ----  |----  |----  |
-| [ack](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/ack) | ACK集群 | 容器服务 Kubernetes 版（简称 ACK）提供高性能可伸缩的容器应用管理能力，支持企业级容器化应用的全生命周期管理 |
-| [alb](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/alb) | 负载均衡 | 负载均衡过对多台云服务器进行均衡的流量分发调度，消除单点故障提升应用系统的可靠性与吞吐力 |
-| [cdn](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/cdn) | 内容分发网络 | CDN内容分发网络解决跨地域跨运营商网络性能问题，提供稳定快速的加速服务 |
-| [cr](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/cr) | 容器镜像 | 容器镜像服务是面向容器镜像、Helm Chart 等符合 OCI 标准的云原生制品安全托管及高效分发平台 |
+| [ack](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/ack) | 容器服务 ACK | 容器服务 Kubernetes 版（简称 ACK）提供高性能可伸缩的容器应用管理能力，支持企业级容器化应用的全生命周期管理 |
+| [alb](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/alb) | 负载均衡 SLB | 负载均衡过对多台云服务器进行均衡的流量分发调度，消除单点故障提升应用系统的可靠性与吞吐力 |
+| [cdn](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/cdn) | 内容分发网络 CDN | CDN内容分发网络解决跨地域跨运营商网络性能问题，提供稳定快速的加速服务 |
+| [cr](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/cr) | 容器镜像 ACR | 容器镜像服务是面向容器镜像、Helm Chart 等符合 OCI 标准的云原生制品安全托管及高效分发平台 |
 | [eci](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/eci) | 弹性容器实例 | 弹性容器实例是 Serverless 和容器化的弹性计算服务 |
-| [ecs](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/ecs) | 云服务器  | 云服务器 ECS是一种安全可靠、弹性可伸缩的云计算服务，助您降低 IT 成本，提升运维效率  |
+| [ecs](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/ecs) | 云服务器 ECS  | 云服务器 ECS是一种安全可靠、弹性可伸缩的云计算服务，助您降低 IT 成本，提升运维效率  |
 | [eip](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/eip) | 弹性公网IP | 弹性公网IP是独立的公网IP资源，可与阿里云专有网络VPC类型的云服务器ECS、NAT网关、ENI网卡、私网负载均衡SLB绑定 |
 | [group](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/group) | 安全组 | 安全组是一种虚拟防火墙，用于控制安全组内ECS实例的入流量和出流量，从而提高ECS实例的安全性 |
-| [rds](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/rds) | 云数据库 rds | 云数据库RDS MySQL 版 |
+| [rds](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/rds) | 云数据库 RDS | 云数据库RDS MySQL 版 |
 | [redis](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/redis) | 云数据库 redis | 云数据库 Redis 版是一种全托管、兼容Redis协议的内存数据库服务 |
-| [vpc](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/vpc) | 专有网络 | 专有网络VPC是用户基于阿里云创建的自定义私有网络, 不同的专有网络之间二层逻辑隔离 |
-| [vsw](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/vsw) | vswitch | 交换机（vSwitch）是组成专有网络的基础网络设备，用来连接不同的云资源实例 |
+| [vpc](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/vpc) | 专有网络 VPC | 专有网络VPC是用户基于阿里云创建的自定义私有网络, 不同的专有网络之间二层逻辑隔离 |
+| [vsw](https://github.com/aliyun/alibabacloud-service-catalog-demo/tree/master/enterprise/vsw) | 交换机 vSwitch | 交换机（vSwitch）是组成专有网络的基础网络设备，用来连接不同的云资源实例 |
 
 
 
